@@ -2,7 +2,7 @@
 import os
 import os.path
 
-# from PIL import image
+from PIL import Image
 
-
-print "Hello, Netlify!"
+im = Image.open("./IMG_1881.jpeg")
+print(im.format, im.size, im.mode)
