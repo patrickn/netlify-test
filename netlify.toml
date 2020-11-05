@@ -1,5 +1,5 @@
 [build]
-  command = "hugo version && ./script.sh"
+  command = "hugo version && ./script.py"
 
 [context.production.environment]
   HUGO_VERSION = "0.76.0" # if older, use format: 0.53 (no trailing zero)
